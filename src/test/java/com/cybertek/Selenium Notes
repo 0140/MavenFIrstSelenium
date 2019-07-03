@@ -1,0 +1,99 @@
+
+
+
+
+
+
+Today is 7/2/2019 Notes
+
+We will talk about check boxes, radio buttons, and something else:)
+
+Please work on the warm up task!
+
+TEST 1
+go to amazon
+enter any search term
+click on search button
+verify title contains search term
+
+TEST 2
+go to wikipedia.org
+enter search term ‘selenium webdriver’
+click on search button
+click on search result ‘Selenium (software)’
+verify url ends with ‘x’
+
+Advise: Do not try to make test pass. You have to find bugs.
+
+Goal of tester(manual or automation) to catch bugs. If your script fails - maybe you found a bug. Do not try to make your test pass.
+
+
+Story:
+
+I found a bug, in the application, with my co-worker script. The thing was, his script wasn't working properly. Why? because he had to fill out work with different values. But what he he entered into form, same values. I noticed from the regression report, that test data looks weird. I've tried to change his test and run it again. Turns out that out of two input boxes, only one was saving data, another one - was just copying data.
+
+What do you do if script fails?
+
+Run it again, maybe it's a script issue (locators are wrong, not enough wait time, etc..)
+
+Test manually (if your script is correct, confirm bug by manual testing)
+If it's a bug - report.
+
+This an example of radio button.
+
+<input type="radio" id="blue" name="color" checked="">
+
+Tag name - input
+
+type - radio
+
+These 2 things are required if you want to create radio button.
+
+.isSelected() - verifies if radio button/check box is selected. Returns true or false.
+
+isEnabled() - Is the element currently enabled or not?
+
+Or in other words, isEnabled() returns true if you can click on radio button. If it's disabled - it will return false.
+
+!greenBTN.isEnabled() - to check if button is disabled.
+
+
+	//TASK!
+    //write a test(method) that will do following:
+    //verify that blue button is selected
+    //then click on black button
+    //verify that black button is selected
+    //verify that blue button is not selected
+
+Relative xpath that can find all radio buttons on the page:
+//input[@type='radio']
+
+Most common syntax of xpath: //tagname[@attribute='value']
+Every radio button must have tag input, and be type of radio
+
+#######################Checkboxes
+
+<input type="checkbox" checked="">
+
+like radio button, check box is also another variation of input in HTML.
+
+To transform input box into check box, you need to specify type that is equals to checkbox
+
+Checkbox can be preselected
+If you have a group of check boxes with a same name attribute, you will be able to select only one.
+
+#################TASK
+
+1. Go to http://practice.cybertekschool.com/checkboxes
+2. Verify that checkbox 1 is not selected.
+3. Verify that checkbox 2 is selected.
+
+
+//input[@type='checkbox'][1]
+
+This xpath means find me input with attribute type that has value checkbox, and get only first element.
+
+.isDisplayed() - will return true, if element is not hidden. In HTML you can hide elements, even though they are in source code. Thus, element will not be visible to user.
+
+INTERVEW QESTION: HOW TO VERIFY THAT ELEMENT DOESN'T EXIST ANY MORE?
+This method (isDisplayed()) will only check if element is visible or no. If element is not on page at all, you will get NoSuchElementException. I saw many times, when people where using this method to verify that element doesn't exist any more. This is a mistake. In order to check if element doesn't exist, use: findElements(locator).size() == 0. If list is empty, that means this element doesn't exists, not in the code. No exception will happened. For example, you need to verify that that record was deleted, or some image, etc.

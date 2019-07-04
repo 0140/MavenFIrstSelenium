@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f1f9a69-ae8f-4712-8a80-55ebbd3cb890" name="Default Changelist" comment="" />
+    <list default="true" id="1f1f9a69-ae8f-4712-8a80-55ebbd3cb890" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/SeleniumUtils/SeleniumUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/SeleniumUtils/SeleniumUtils.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/ApptestClass/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/OfficeHours/ExpediaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="205">
+              <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,36 +34,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/CheckBoxTests.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/Select.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="-1187">
+              <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/AhmedCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/EbayPractise.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3605#3606#0" expanded="true" />
+                <element signature="e#3657#3658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,54 +51,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/SybertexPracticeFromScratch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/radioButtons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1043">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,12 +85,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day6/WarmUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/SeleniumUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/SybertexPracticeFromScratch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Selenium Notes" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeID.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day6/radioButtons.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day6/CheckBoxTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day6/CheckBoxTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Selenium Notes" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDarwnsPractice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java" />
       </list>
     </option>
   </component>
@@ -184,10 +108,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="673" />
+    <option name="x" value="690" />
     <option name="y" value="23" />
-    <option name="width" value="982" />
-    <option name="height" value="809" />
+    <option name="width" value="965" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,33 +161,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
-              <item name="AfterClassSelenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-maven-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-maven-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
-              <item name="ApptestClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-maven-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-maven-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
-              <item name="day6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-maven-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-maven-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
               <item name="OfficeHours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,10 +171,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
               <item name="SeleniumUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-maven-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -306,20 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckBoxTests">
-    <configuration name="AhmedCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.AfterClassSelenium.AhmedCode" />
-      <module name="first-maven-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.AfterClassSelenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DropDownsPractice">
     <configuration name="CheckBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.day6.CheckBoxTest" />
       <module name="first-maven-app" />
@@ -346,12 +226,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarmUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.day6.WarmUp" />
+    <configuration name="DropDarwnsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.day7.DropDarwnsPractice" />
       <module name="first-maven-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.day6.*" />
+          <option name="PATTERN" value="com.cybertek.day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.day7.DropDownsPractice" />
+      <module name="first-maven-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DropDownsPractice" />
+        <item itemvalue="Application.DropDarwnsPractice" />
         <item itemvalue="Application.CheckBoxTests" />
         <item itemvalue="Application.CheckBoxTest" />
         <item itemvalue="Application.radioButtons" />
-        <item itemvalue="Application.WarmUp" />
-        <item itemvalue="Application.AhmedCode" />
       </list>
     </recent_temporary>
   </component>
@@ -401,9 +294,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="673" y="23" width="982" height="809" extended-state="0" />
+    <frame x="690" y="23" width="965" height="677" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34787235" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34669557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,13 +305,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25104603" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914925" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.38214785" />
@@ -436,17 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cybertek/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,9 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Selenium Notes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/WarmUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -558,17 +438,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeaTagNAME.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cybertek/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeID.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/radioButtons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-206">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -585,6 +469,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/AfterClassSelenium/LocatorsPracticeaTagNAME.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/ApptestClass/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -595,30 +496,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/OfficeHours/ExpediaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Selenium Notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1200">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/SeleniumUtils/SeleniumUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/radioButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1043">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,10 +515,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day6/CheckBoxTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/OfficeHours/ExpediaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1187">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+          <folding>
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="e#3657#3658#0" expanded="true" />
           </folding>
         </state>
       </provider>

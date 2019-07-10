@@ -1,4 +1,4 @@
-package com.cybertek.SeleniumUtils;
+package com.cybertek.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

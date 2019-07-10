@@ -1,7 +1,7 @@
 package com.cybertek.AfterClassSelenium;
 
-import com.cybertek.SeleniumUtils.SeleniumUtils;
-import com.cybertek.SeleniumUtils.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;

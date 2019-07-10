@@ -1,6 +1,6 @@
 package com.cybertek.AfterClassSelenium;
 
-import com.cybertek.SeleniumUtils.BrowserFactory;
+import com.cybertek.utilities.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

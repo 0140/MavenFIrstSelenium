@@ -1,7 +1,7 @@
 package com.cybertek.day6;
 
-import com.cybertek.SeleniumUtils.BrowserFactory;
-import com.cybertek.SeleniumUtils.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

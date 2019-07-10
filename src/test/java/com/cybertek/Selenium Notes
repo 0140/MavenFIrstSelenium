@@ -102,6 +102,7 @@ This method (isDisplayed()) will only check if element is visible or no. If elem
 
 
 ***************** Day 7 ********************************************************************************************
+
 HELLO!
 
 	Agenda:
@@ -250,3 +251,69 @@ Practice:
    	Try to automate non-select dropdown. (Select a website)
 
 ****************************************    *******************************************************************************
+
+7/7/2019
+
+ Today we will talk about TESTNG
+
+
+What is unit testing?
+
+Testing of smallest functional part of application.
+In other words - testing of methods.
+
+Test data: array1{1,2,453, 3};
+
+assertEquals(findMax(array1), 453); // if it's true,
+
+unit test passed.
+
+public int findMax(int[] array){
+	int max = array[0]
+	for(int i: array){
+		if(i> max)
+		 max = i
+	}
+	return max;
+}
+
+My story
+
+###I've never done unit testing at work,
+it was developers responsibility. My developers always called
+unit tests junits.
+
+Unit tests written manually by developers. Unit test is an
+essential testing stage that helps to find bugs and fix them
+immediately.
+
+For unit testing, there are some popular testing frameworks
+(or tools) such as: TestNG (java), JUnit (java), NUnit (.net).
+
+TestNG - let's you write unit tests and do assertions. Also it
+helps us to generate reports.
+
+###I would say that report is the most important thing
+for management. Why? Because they don't check your code,
+they can understand what tests passed or failed only based
+on report. Report is like visual representation of test results.
+TestNG helps us to group tests, create test suites. Perform data
+driven testing (DDT).
+
+Example:
+assertEquals(2, 2),
+assertFalse( "apple" == "orange"),
+assertTrue("apple".equals("apple"))
+
+As selenium testers, we use testng for writing, organizing,
+asserting and running selenium scripts.
+
+@Test
+public void test1(){
+	driver.get("google.com");
+	driver.find().click()
+}
+
+@Test - it calls annotation. This annotation will turn method into
+test. So we don't need main method to run our code. We can put this
+annotation and run method as a test.

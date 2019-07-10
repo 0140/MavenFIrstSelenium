@@ -1,6 +1,6 @@
 package com.cybertek.AfterClassSelenium;
 
-import com.cybertek.SeleniumUtils.BrowserFactory;
+import com.cybertek.utilities.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 
 public class LocatorsPracticeaTagNAME {

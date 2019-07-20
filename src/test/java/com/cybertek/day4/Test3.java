@@ -13,6 +13,7 @@ public class Test3 {
         driver.manage ().window ().maximize ();
         driver.get ("http://qa2.vytrack.com/user/login");
 
+
         Thread.sleep (3999);
 
         WebElement username = driver.findElement (By.id ("prependedInput"));

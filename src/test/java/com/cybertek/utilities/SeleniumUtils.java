@@ -2,6 +2,7 @@ package com.cybertek.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -50,15 +51,37 @@ public class SeleniumUtils {
         }
     }
 
-    public static void verifyIsDisplayed(WebElement element){
-        if(element.isDisplayed()){
+    public static void verifyIsDisplayed(WebElement element) {
+        if (element.isDisplayed()) {
             System.out.println("PASSED");
-            System.out.println(element.getText()+": is visible");
-        }else{
+            System.out.println(element.getText() + ": is visible");
+        } else {
             System.out.println("FAILED");
-            System.out.println(element.getText()+": is not visible!");
+            System.out.println(element.getText() + ": is not visible!");
         }
     }
+
+    //this methid will recover in case of exception during unsuccessful click,
+    // and will try to click on the element agin
+    public static void clickWithWait(WebDriver driver, By by, int attempt) throws Exception {
+        int counter = 0;
+        //click on element as many as you specified in attempts parameter
+        while (counter < attempt)
+            try {
+                //selenium must look for that element
+                driver.findElement(by).click();
+                //if click is successful - then break
+            } catch (WebDriverException e) {
+                //if click failed
+                //print exception
+                System.out.println(e);
+                //wait for one second, and try to click again
+                Thread.sleep(2000, 2);
+                System.out.println("Attempt: " + ++counter);
+                Thread.sleep(2000, 2);
+            }
+    }
 }
+
 
 

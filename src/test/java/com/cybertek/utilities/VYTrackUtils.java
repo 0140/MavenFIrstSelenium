@@ -3,11 +3,14 @@ package com.cybertek.utilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VYTrackUtils {
     //we don't want to access these variables outside
     private static String usernamelocator = "prependedInput";
     private static String passwordLocator = "prependedInput2";
+    private static String loaderMaskLocator = "div[class='loader-mask shown']";
 
 
     /**
@@ -36,9 +39,28 @@ public class VYTrackUtils {
     public static void navigateToModule(WebDriver driver, String tab, String module){
         String tabLocator = "//span[contains(text(),'"+tab+"') and contains(@class, 'title title-level-1')]";
         String moduleLocator = "//span[contains(text(),'"+module+"') and contains(@class, 'title title-level-2')]";
-        driver.findElement(By.xpath(tabLocator)).click();
-        SeleniumUtils.waitPlease(1);
+//        driver.findElement(By.xpath(tabLocator)).click();
+        SeleniumUtils.clickWithWait(driver, By.xpath(tabLocator), 5);
+//        SeleniumUtils.waitPlease(1);
         driver.findElement(By.xpath(moduleLocator)).click();
-        SeleniumUtils.waitPlease(2);
+
+//        SeleniumUtils.clickWithWait(driver, By.xpath(moduleLocator), 5);
+
+//        SeleniumUtils.waitPlease(2);
+    }
+
+    /**
+     * Waits until loader screen present. If loader screen will not pop up at all,
+     * NoSuchElementException will be handled  bu try/catch block
+     * Thus, we can continue in any case.
+     * @param driver
+     */
+    public static void waitUntilLoaderScreenDisappear(WebDriver driver) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Long.valueOf(ConfigurationReader.getProperty("explicitwait")));
+            wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(loaderMaskLocator))));
+        }catch (Exception e){
+            System.out.println(e+" :: Loader mask doesn't present.");
+        }
     }
 }
